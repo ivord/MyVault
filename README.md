@@ -35,8 +35,9 @@ brew install --cask obsidian
 
 ### Get the API key
 
-1. Settings → **Local REST API**
-2. Copy the **API Key** — you'll need it in step 3
+1. Obsidian Settings (`⌘ ,`) → Community plugins
+2. Under **Enabled plugins**, click **Local REST API**
+3. The **API Key** field is at the top — click the copy icon beside it
 
 ---
 
@@ -57,16 +58,22 @@ claude
 
 ## 3. Obsidian API Key
 
-Add to shell config (`~/.zshrc`):
+### Get the key
+
+1. Open Obsidian → Settings (`⌘ ,`)
+2. Community plugins → **Local REST API** → click the plugin name to open its settings
+3. Find **API Key** — click the copy icon next to it
+
+### Add to shell
 
 ```bash
-export OBSIDIAN_API_KEY="your-key-here"
+echo 'export OBSIDIAN_API_KEY="paste-your-key-here"' >> ~/.zshrc && source ~/.zshrc
 ```
 
-Then reload:
+Verify:
 
 ```bash
-source ~/.zshrc
+echo $OBSIDIAN_API_KEY
 ```
 
 ---
