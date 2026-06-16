@@ -1,6 +1,10 @@
 # Obsidian plugin secrets (API keys, TLS private keys)
 .obsidian/plugins/obsidian-local-rest-api/data.json
 
+# Obsidian plugin binaries (reinstall from plugin store)
+.obsidian/plugins/*/main.js
+.obsidian/plugins/*/styles.css
+
 # Obsidian cache/workspace state
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
