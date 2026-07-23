@@ -12,3 +12,7 @@
 
 ./common-components/node_modules
 ./common-widgets/node_modules
+
+# env files (secrets)
+.env
+.env.*
