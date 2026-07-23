@@ -9,3 +9,6 @@
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 .trash/
+
+./common-components/node_modules
+./common-widgets/node_modules
